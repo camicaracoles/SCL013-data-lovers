@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Quicksand";
+    width: 100%;
+    height: 100%;
+}
+
+#contenedorBusqueda {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 600px;
+    background: #006666;
+    border-radius: 20px;
+    margin: 50px 0px 0px 200px;
+}
+
+#franjaParteArriba {
+    display: flex;
+    justify-content: flex-start; 
+    width: 1200px;
+}
+
+#busquedaPorTipo {
+    display: flex;
+    justify-content: flex-start; 
+    margin: 20px 100px 0px 50px;
+}
+
+.tipos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 30px;
+    background: #27741B;
+    border-radius: 20px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0px 15px 0px 0px;
+}
+
+.btnTipo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 31px;
+    height: 30px;
+    background: #004C4C;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border-radius: 50px;
+    margin: 0px 15px 0px 0px;
+}
+
+.btnDebilidad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 31px;
+    height: 30px;
+    background: #004C4C;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border-radius: 50px;
+    margin: 0px 20px 0px 0px;
+}
+
+#porTamaño {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 0px;
+}
+
+.btnMenorMayor {
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.btnmenor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 133px;
+    height: 26px;
+    background: #B2D8D8;
+    border-radius: 20px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 17px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin: 5px 25px 10px 0px;
+}
+
+.btnmayor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 133px;
+    height: 26px;
+    background: #B2D8D8;
+    border-radius: 20px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 17px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin: 5px 0px 10px 0px;
+}
+
+#carameloParaEvolucion {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 0px;
+}
+
+#cantidadKilometro {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 0px;
+}
+
+#probabilidadDeAparecer {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 0px;
+}
+#franjaParteAbajo {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+#btnBusquedaAvan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background: #004C4C;
+    border-radius: 20px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 100px 0px 0px 0px ;
+}
+

@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Quicksand";
+    width: 100%;
+    height: 100%;
+}    
+
+#franjaBtnSiguiente {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+#btnIzquierdo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1100px;
+    height: 80px;
+    background: #006666;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+    border-radius: 0px 0px 20px 0px;
+    margin: 0px 100px 0px 0px;
+}
+
+#btnDerecho {
+    display: flex;
+    align-items: center;
+    width: 1100px;
+    height: 80px;
+    background: #006666;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+    border-radius: 0px 0px 0px 20px;
+    
+}
+
+#flechaIzquierdoSiguiente {
+    width: 75px;
+    height: 75px;
+}
+
+#flechaDerechoSiguiente {
+    width: 75px;
+    height: 75px;
+}
+
+#contenedorPrincipal {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 650px;
+}
+
+#fotoCarnet {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background: #B2D8D8;
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin: 50px 50px 0px 240px;
+}
+
+#textoNameCarnet {
+    width: 500px;
+    height: 50px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin: 20px 0px 0px 20px;
+
+}
+
+#fotoPokemonCarnet {
+    width: 400px;
+    height: 400px;
+    margin: 20px 0px 0px 20px;
+}
+
+#textopokemon {
+    display: flex;
+    justify-content: flex-start;
+    width: 900px;
+    height: 900px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 22px;
+    color: #006666;  
+    margin: 150px 100px 100px 100px;
+}
+
+#contenedorDelMedio {
+    display: flex;
+}
+
+#tipoDebilidad {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    margin: 0px 0px 0px 300px;
+}
+
+#tipoText {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: #006666;
+}
+
+#cantidadTipo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.formaTipo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background: #37A425;
+    border-radius: 20px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 15px 15px 20px 0px;
+}
+
+#debelidadText {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: #006666;
+}
+
+.cantidad {
+    width: 600px;
+    height: 300px;
+}
+
+.formaTipoDebilidad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background: #FB7B1E;
+    border-radius: 20px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 15px 15px 20px 0px;   
+}
+
+#categorias {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    width: 500px;
+    height: 400px;
+    background: #A0D6B4;
+    border-radius: 20px;
+}
+
+#primeraSeccion {
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px 20px 0px 50px;
+}
+
+#altura {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.resultadoAltura{
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 17px;
+    color: #006666;
+    margin: 5px 0px 10px 0px;
+}
+
+#peso{
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.resultadoPeso {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 17px;
+    color: #006666;
+    margin: 5px 0px 10px 0px;
+}
+
+#tipoCaramelo{
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.resultadoTipoCaramelo {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 17px;
+    color: #006666;
+    margin: 5px 0px 10px 0px;
+}
+
+#conjuntoDos{
+    width: 250px;
+    height: 150px;
+}
+
+#apoyoGo{
+    width: 250px;
+    height: 150px
+}
+
+#segundaSeccion{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0px 20px 0px 50px;
+}
+
+#caramelosEvolucion{
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.resultadoevolucion {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 17px;
+    color: #006666;
+    margin: 5px 0px 10px 0px;
+}
+
+#cantidadKilometros {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.resultadoKilometros {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 17px;
+    color: #006666;
+    margin: 5px 0px 10px 0px; 
+}
+
+#probabilidad {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.resultadoProbabilidad {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 17px;
+    color: #006666;
+    margin: 5px 0px 10px 0px; 
+}
+
+#Multiplicadores {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.resultadoMultiplicadores {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 17px;
+    color: #006666;
+    margin: 5px 0px 10px 0px; 
+}
+
+#franjaTextEvoluciones{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 0px 0px 200px;
+}
+
+#btnInfoEvoluciones{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 194px;
+    height: 37px;
+    background: #006666;
+    border-radius: 20px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0px 0px 0px 200px;
+}
+
+.franjaEvoluciones {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 500px;
+}
+
+.miniTarjetaEvolucion {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 30px 50px 200px;
+}
+
+.textoMiniEvolucion {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    color: #006666;
+}
+
+.imagenEvolucion {
+    width: 250px;
+    height: 250px;
+}
+
+.espacioTipoEvolucion{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flechaEvolucion{
+    width: 200px;
+    height: 200px;
+    margin: 100px 50px 0px 0px;
+}

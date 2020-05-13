@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="pokedex.css" />
+  
+</head>
+
+<body>
+  <div class="banner">
+    <div id="contenedor"></div>
+    <div id="botones-banner">
+      <a id="inicio" href="./index.html">
+        <img src="../img/icono-inicio.png" id="icono-inicio"></img>
+        &nbsp Inicio
+      </a>
+      <a id="pokedex" href="./pokedex.html">
+        <img src="../img/icono-pokedex.png" id="icono-pokedex" /></img>
+        &nbsp Pokédex
+      </a>
+      <a id="Historia" href="./historia.html">
+        <img src="../img/icono-historia.png" id="icono-historia" /></img>
+        &nbsp Historia <br> <br> Pokémon
+      </a>
+      <a id="tutorial" href="./tutorial.html">
+        <img src="../img/icono-tutorial.png" id="icono-tutorial" /></img>
+        Tutorial <br> <br> Pokémon Go
+      </a>
+      <a id="ataque" href="./ataque.html">
+        <img src="../img/icono-lucha.png" id="icono-ataque" /></img>
+        Ataque y <br> <br> movimientos
+      </a>
+    </div>
+  </div>
+
+
+  <div class="barraPokedex">
+    <div id="contenedorBarraUno">
+      <div id="textobusqueda">Nombre o número</div>
+      <form>
+        <label for="numText"></label>
+        <input type="text" id="numTexto" name="buscador" maxlength="3">
+      </form>
+    </div>
+    <div id="contenedorBarraDos">
+      <div id=Pokedeximg>
+        <img src="../img/pokedex.png" id="letraPokedex" /></img>
+      </div>
+    </div>
+  </div>
+
+  <div class="fondoblanco">
+    <div class="contenedorFiltros">
+      <div id="primerContenedor">
+        <select id="filtro"onchange="selectOption()">Ordenar por...
+          <option value="numeroInferior" >Número Inferior</option>
+          <option value="numeroSuperior" >Número Superior</option>
+          <option value="a_z">De la A - Z</option>
+          <option value="z_a">De la Z - A</option>
+        </select>
+      </div>
+      
+      <div id="segundoContenedor">
+        <a id="textBusquedaAvanzada" href="./busqueda.html">&nbsp &nbsp &nbsp &nbsp Búsqueda Avanzada</a>
+        <div id="imgCharizard">
+          <img src="../img/006.png" id="ImgbusquedaAvanzada" /></img>
+        </div>
+      </div>
+    </div>
+    <div id="avisoPokemon">
+      <div id="primeraGeneracion"> &nbsp Pokémon I Generación</div>
+    </div>
+    
+    <div id="miniTarjetas"></div>
+
+    <div class="contenedorBtnMas">
+      <div id="btnMas" onclick="cambiarSiguiente()">Cargar más pokémon</div>
+    </div>
+
+
+    <div class="banner-final">
+      <div id="contenedor-final">
+        <div id="contenedor-uno">
+          <a href="./tutorial.html">Guía para nuevos entrenadores.</a>
+          <a href="./pokedex.html">Conoce la POKÉDEX.</a>
+          <a href="./historia.html">Historia pokémon.</a>
+          <a href="./dinamica.html">Servicio al cliente.</a>
+        </div>
+        <div id="contenedor-dos">
+          <div id=icono-ig>
+            <img src="../img/icono-ig.png" id="instagram" /></img>
+          </div>
+          <div id=icono-fb>
+            <img src="../img/icono-fb.png" id="facebook" /></img>
+          </div>
+          <div id=icono-tt>
+            <img src="../img/icono-tt.png" id="twitter" /></img>
+          </div>
+        </div>
+        <div id="contenedor-tres">
+          <a href="./dinamica.html">Terminos y condiciones.</a>
+          <a href="./dinamica.html">Aviso sobre la privacidad.</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./data/pokemon/pokemon.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>

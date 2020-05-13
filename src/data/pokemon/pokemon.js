@@ -1,9 +1,25 @@
-export default {
-  "pokemon": [{
+const pokemones = [
+  {
     "id": 1,
     "num": "001",
     "name": "Bulbasaur",
     "img": "http://www.serebii.net/pokemongo/pokemon/001.png",
+    "text": `Bulbasaur es un Pokémon de tipo planta/veneno 
+    introducido en la primera generación. Bulbasaur es un
+    Pokémon cuadrúpedo de color verde y manchas más
+    oscuras de formas geométricas. Su cabeza representa
+    cerca de un tercio de su cuerpo. En su frente se ubican
+    tres manchas que pueden cambiar dependiendo del
+    ejemplar.
+    Este Pokémon tiene plantado un bulbo en el lomo desde que nace.
+    Esta semilla crece y se desarrolla a lo largo del ciclo de vida
+    de Bulbasaur a medida que suceden sus evoluciones. El bulbo
+    absorbey almacena la energía solar que Bulbasaur necesita para crecer.
+    Dicen que cuanta más luz consuma la semilla, más olor producirá
+    cuando se abra.
+    El bulbo de Bulbasaur le ayuda a defenderse de los enemigos y
+    desde él puede disparar ataques tales como rayo solar y drenadoras
+    entre otros.`,
     "type": [
       "Grass",
       "Poison"
@@ -245,6 +261,7 @@ export default {
     "num": "009",
     "name": "Blastoise",
     "img": "http://www.serebii.net/pokemongo/pokemon/009.png",
+    "destacado": true,
     "type": [
       "Water"
     ],
@@ -961,6 +978,7 @@ export default {
     "num": "034",
     "name": "Nidoking",
     "img": "http://www.serebii.net/pokemongo/pokemon/034.png",
+    "destacado": true,
     "type": [
       "Poison",
       "Ground"
@@ -1788,6 +1806,7 @@ export default {
     "num": "064",
     "name": "Kadabra",
     "img": "http://www.serebii.net/pokemongo/pokemon/064.png",
+    "destacado": true,
     "type": [
       "Psychic"
     ],
@@ -2649,6 +2668,7 @@ export default {
     "num": "094",
     "name": "Gengar",
     "img": "http://www.serebii.net/pokemongo/pokemon/094.png",
+    "destacado": true,
     "type": [
       "Ghost",
       "Poison"
@@ -3540,6 +3560,7 @@ export default {
     "num": "130",
     "name": "Gyarados",
     "img": "http://www.serebii.net/pokemongo/pokemon/130.png",
+    "destacado": true,
     "type": [
       "Water",
       "Flying"
@@ -3868,6 +3889,7 @@ export default {
     "num": "143",
     "name": "Snorlax",
     "img": "http://www.serebii.net/pokemongo/pokemon/143.png",
+    "destacado": true,
     "type": [
       "Normal"
     ],
@@ -3887,6 +3909,7 @@ export default {
     "num": "144",
     "name": "Articuno",
     "img": "http://www.serebii.net/pokemongo/pokemon/144.png",
+    "destacado": true,
     "type": [
       "Ice",
       "Flying"
@@ -3910,6 +3933,7 @@ export default {
     "num": "145",
     "name": "Zapdos",
     "img": "http://www.serebii.net/pokemongo/pokemon/145.png",
+    "destacado": true,
     "type": [
       "Electric",
       "Flying"
@@ -3931,6 +3955,7 @@ export default {
     "num": "146",
     "name": "Moltres",
     "img": "http://www.serebii.net/pokemongo/pokemon/146.png",
+    "destacado": true,
     "type": [
       "Fire",
       "Flying"
@@ -4015,6 +4040,7 @@ export default {
     "num": "149",
     "name": "Dragonite",
     "img": "http://www.serebii.net/pokemongo/pokemon/149.png",
+    "destacado": true,
     "type": [
       "Dragon",
       "Flying"
@@ -4045,6 +4071,7 @@ export default {
     "num": "150",
     "name": "Mewtwo",
     "img": "http://www.serebii.net/pokemongo/pokemon/150.png",
+    "destacados": true,
     "type": [
       "Psychic"
     ],
@@ -4066,6 +4093,7 @@ export default {
     "num": "151",
     "name": "Mew",
     "img": "http://www.serebii.net/pokemongo/pokemon/151.png",
+    "destacado": true,
     "type": [
       "Psychic"
     ],
@@ -4083,4 +4111,81 @@ export default {
       "Dark"
     ]
   }]
-};
+
+
+
+const tipos = [
+  {
+    "id": "1",
+    "name": "bicho",
+    "color": "#27741B"
+  }, {
+    "id": "2",
+    "name": "dragon",
+    "color": "#93750E"
+  }, {
+    "id": "3",
+    "name": "hada",
+    "color": "#E9C5C5"
+  }, {
+    "id": "4",
+    "name": "fuego",
+    "color": "#FB7B1E"
+  }, {
+    "id": "5",
+    "name": "fantasma",
+    "color": "#3D0657"
+  }, {
+    "id": "6",
+    "name": "tierra",
+    "color": "#866640"
+  }, {
+    "id": "7",
+    "name": "normal",
+    "color": "#FFE898"
+  }, {
+    "id": "8",
+    "name": "psíquico",
+    "color": "#866640"
+  }, {
+    "id": "9",
+    "name": "acero",
+    "color": "#866640"
+  }, {
+    "id": "10",
+    "name": "siniestro",
+    "color": "#373434"
+  }, {
+    "id": "11",
+    "name": "eléctrico",
+    "color": "#E0E41E"
+  }, {
+    "id": "12",
+    "name": "lucha",
+    "color": "#BC2121"
+  }, {
+    "id": "13",
+    "name": "volador",
+    "color": "#819695"
+  }, {
+    "id": "14",
+    "name": "planta",
+    "color": "#37A425"
+  }, {
+    "id": "15",
+    "name": "hielo",
+    "color": "#52D9D9"
+  }, {
+    "id": "16",
+    "name": "veneno",
+    "color": "#9B5BCE"
+  }, {
+    "id": "17",
+    "name": "roca",
+    "color": "#433313"
+  }, {
+    "id": "18",
+    "name": "agua",
+    "color": "2669CC"
+  }
+]

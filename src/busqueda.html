@@ -1,0 +1,116 @@
+<<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Búqueda Avanzada</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="pokedex.css" />
+        <link rel="stylesheet" href="tarjeta.css" />
+        <link rel="stylesheet" href="busqueda.css" />
+        
+    </head>
+
+    <body>
+        <div class="banner">
+            <div id="contenedor"></div>
+            <div id="botones-banner">
+                <a id="inicio" href="./index.html">
+                    <img src="../img/icono-inicio.png" id="icono-inicio"></img>
+                    &nbsp Inicio
+                </a>
+                <a id="pokedex" href="./pokedex.html">
+                    <img src="../img/icono-pokedex.png" id="icono-pokedex" /></img>
+                    &nbsp Pokédex
+                </a>
+                <a id="Historia" href="./historia.html">
+                    <img src="../img/icono-historia.png" id="icono-historia" /></img>
+                    &nbsp Historia <br> <br> Pokémon
+                </a>
+                <a id="tutorial" href="./tutorial.html">
+                    <img src="../img/icono-tutorial.png" id="icono-tutorial" /></img>
+                    Tutorial <br> <br> Pokémon Go
+                </a>
+                <a id="ataque" href="./ataque.html">
+                    <img src="../img/icono-lucha.png" id="icono-ataque" /></img>
+                    Ataque y <br> <br> movimientos
+                </a>
+            </div>
+        </div>
+
+        <div class="barraPokedex">
+            <div id="contenedorBarraUno">
+                <div id="textobusqueda">Nombre o número</div>
+                <form>
+                    <label for="numText"></label>
+                    <input type="text" id="numTexto" name="buscador" maxlength="3">
+                </form>
+            </div>
+            <div id="contenedorBarraDos">
+                <div id=Pokedeximg>
+                    <img src="../img/pokedex.png" id="letraPokedex" /></img>
+                </div>
+            </div>
+        </div>
+
+        <div id="contenedorBusqueda">
+            <div id="franjaParteArriba">
+                <div id="busquedaPorTipo">
+                    <div class="tipos">bicho</div>
+                    <div class="btnTipo">T</div>
+                    <div class="btnDebilidad">D</div>
+                </div>
+                <div id="busquedaPorCantidades">
+                    <div id="porTamaño">Tamaño</div>
+                    <div class="btnMenorMayor">
+                        <div class="btnmenor">menor a mayor</div>
+                        <div class="btnmayor">mayor a menor</div>
+                    </div>
+                    <div id="carameloParaEvolucion">Caramelos para evolución</div>
+                    <div class="btnMenorMayor">
+                        <div class="btnmenor">menor a mayor</div>
+                        <div class="btnmayor">mayor a menor</div>
+                    </div>
+                    <div id="cantidadKilometro">Cantidad de kilometros para huevo</div>
+                    <div class="btnMenorMayor">
+                        <div class="btnmenor">menor a mayor</div>
+                        <div class="btnmayor">mayor a menor</div>
+                    </div>
+                    <div id="probabilidadDeAparecer">Probabilidad de aparecer</div>
+                    <div class="btnMenorMayor">
+                        <div class="btnmenor">menor a mayor</div>
+                        <div class="btnmayor">mayor a menor</div>
+                    </div>
+                </div>
+            </div>
+            <div id="franjaParteAbajo">
+                <div id="btnBusquedaAvan">Buscar</div>
+            </div>  
+        </div>
+
+        <div id="contenedorResultadosbusqueda">
+            <div class="miniTarjetas">
+                <div id="tarjetaUno">
+                  <div class="franjaUno">
+                    <div class="imgTarjeta">
+                      <img src="../img/013.png" class="contenedorImgTarjeta" /></img>
+                    </div>
+                  </div>
+                  <div class="franjaDosTarjeta">
+                    <div class="textNumTarjeta">N° 013 </div>
+                  </div>
+                  <div class="franjaTresTarjeta">
+                    <div class="nameTarjeta">Weedle</div>
+                  </div>
+                  <div class="franjaCuatroTarjeta">
+                      <div Class="cajaTipoTarjeta">bicho</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <script src="./data/pokemon/.js"></script>
+        <script src="./main.js"></script>
+    </body>
+
+    </html>

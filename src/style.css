@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Quicksand";
+    width: 100%;
+    height: 100%;
+}
+
+    .banner {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     height: 410px;
+     width: 100%;
+     background-image: url(../img/banner.png) ;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+    }
+
+    #botones-banner{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     margin: 0px 350px 0px 0px;
+     position: relative;
+     top: 30px;
+    }
+
+   
+
+
+    #botones-banner > a {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 150px;
+     height: 60px;
+     margin: 10px 10px 1px 10px;
+     background: #49796B;
+     border: 1px solid #F9F9F9;
+     box-sizing: border-box;
+     box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+     border-radius: 20px;
+     
+     font-family: "Quicksand";
+     font-style: normal;
+     font-weight: normal;
+     font-size: 10px;
+     line-height: 12px;
+     color: #FFFFFF;
+     border: 1px solid #FFFFFF;
+     backdrop-filter: blur(4px);
+     font-size: 18px;
+     text-align: center;
+    }
+
+    #icono-inicio {
+     height: 50px;
+     width: 40px;  
+    }
+
+    #icono-pokedex {
+     height: 50px;
+     width: 50px;
+    }
+    
+    #icono-historia {
+     height: 50px;
+     width: 40px;
+    }
+
+    #icono-tutorial{
+     height: 50px;
+     width: 40px;
+    }
+
+    #icono-ataque {
+     height: 40px;
+     width: 40px;  
+    }
+
+    .barra {
+     display: flex;
+     justify-content: center;
+     align-items: center;   
+     height: 193px;
+     width: 100%;
+     background-color: #A0D6B4;
+    }
+    
+    #imagen-go {
+     width: 300px; 
+     position: relative;
+     top: 100px;
+    }
+
+    .fondo-blanco{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 1200px;
+     width: 100%;
+    }
+ 
+    
+    #introduccion{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+    #intro{   
+     width: 800px;
+     border-radius: 55px;
+     margin: 150px 10px 10px 10px;  
+    }
+
+    #pokemon-destacado{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 248px;
+     height: 67px;
+     background: #49796B;
+     border-radius: 20px;
+     margin: 50px 10px 100px 400px;
+     
+     font-family: "Quicksand";
+     font-style: normal;
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 16px;
+     text-align: center;
+     color: #FFFFFF;
+    }
+
+    .img-pokemon-destacado {
+     display: flex;
+     align-items: center;
+    }
+
+    #flecha-izquierda {
+     background-image: url(../img/flecha-izquierda.png);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;   
+     width: 150px;
+     height: 150px;
+     margin: 40px 10px 40px 320px;  
+    }
+    
+    #unoImagen{
+     justify-content: center;
+     height: 200px;
+     width: 200px;    
+    }
+
+    #dosImagen {
+     justify-content: center;
+     height: 200px;
+     width: 200px;
+     
+    }
+
+    #tresImagen {
+     justify-content: center;
+     height: 200px;
+     width: 200px;
+     
+    }
+
+    #flecha-derecha {
+     background-image: url(../img/flecha-derecha.png);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     width: 150px;
+     height: 150px; 
+     margin: 40px 300px 40px 10px 
+    }
+
+    .banner-final {
+     display: flex;
+     height: 200px;
+     width: 100%;
+     background-color: #A0D6B4;
+     margin: 50px 0px 0px 0px ;
+    }
+
+    #contenedor-final{
+     display: flex;
+    }
+
+
+    #contenedor-uno {
+     display: flex;
+     flex-direction: column;
+     margin: 50px 300px 50px 50px;
+    }
+
+    #contenedor-dos {
+     display: flex;
+     justify-content: center;
+     margin: 10px;
+    }
+
+    #instagram {
+     width: 100px;
+     margin: 10px 20px 20px 20px; 
+    }
+    
+    #facebook {
+     width: 100px;
+     margin: 10px 20px 20px 20px; 
+    }
+
+    #twitter {
+     width: 100px;
+     margin: 10px 20px 20px 20px; 
+    }
+
+    #contenedor-tres {
+     display: flex;
+     flex-direction: column;
+     margin: 50px 50px 50px 300px; 
+    }
+
+    a {
+        text-decoration: #FFFFFF;
+        color: #FFFFFF;
+    }

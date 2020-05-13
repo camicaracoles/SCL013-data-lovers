@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Quicksand";
+    width: 100%;
+    height: 100%;
+}
+.barraPokedex {
+    display: flex;
+    justify-content: flex-start;  
+    height: 193px;
+    width: 100%;
+    background-color: #A0D6B4;
+}
+
+#contenedorBarraUno {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    margin: 1px 1px 1px 300px;
+}
+
+#textobusqueda {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+    margin: 90px 7px 7px 15px;
+}
+
+#numTexto {
+    width: 317px;
+    height: 56px;
+    background: #FFFFFF;
+    backdrop-filter: blur(4px);
+    border-radius: 20px
+    
+}
+
+#contenedorBarraDos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    margin: 1px 550px 1px 1px;
+}
+
+#letraPokedex {
+    width: 173px;
+    height: 60px;
+    margin: 100px 0px 0px 0px;;
+}
+
+.contenedorFiltros {
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+#filtro {
+    width: 285px;
+    height: 49px;
+    background: #49796B;
+    border-radius: 20px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 70px 1px 1px 330px;
+}
+
+  
+#segundoContenedor{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#textBusquedaAvanzada {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 52px;
+    margin: 1px 1px 1px 20px;
+    background: #49796B;
+    border-radius: 20px;
+    margin: 200px 0px 20px 200px;
+    
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+#ImgbusquedaAvanzada {
+    position: relative;
+    bottom: 40px;
+    right: 200px;
+}
+
+#avisoPokemon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+#primeraGeneracion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 327px;
+    height: 48px;
+    background: #49796B;
+    border-radius: 20px;
+    margin: 70px 1px 1px 330px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+}
+
+#miniTarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1200px;
+    margin: 50px 0px 0px 240px;
+}
+
+#miniTarjetas > div {
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    background: #B2D8D8;
+    border: 1px solid #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.franjaUno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 180px;   
+}
+
+.imgTarjeta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px; 
+    margin: 5px;
+}
+
+.contenedorImgTarjeta {
+    width: 180px;
+    height: 180px;
+    margin: 30px 35px 5px 35px;  
+}
+
+.franjaDosTarjeta {
+    display: flex;
+    justify-content: flex-start;
+    width: 250px;
+    height: 20px; 
+}
+
+.textNumTarjeta {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 3px 3px 3px 15px;
+}
+
+.franjaTresTarjeta {
+    display: flex;
+    justify-content: flex-start;
+    width: 250px;
+    height: 20px; 
+}
+
+.nameTarjeta {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 3px 3px 3px 15px;
+}
+
+.franjaCuatroTarjeta {
+    display: flex;
+    justify-content: flex-start;
+    width: 250px;
+    height: 20px;   
+}
+
+.cajaTipoTarjeta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 16px;
+    background: #37A425;
+    border-radius: 20px;
+    margin: 3px 3px 3px 15px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.contenedorBtnMas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnMas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 248px;
+    height: 44px;
+    background: #49796B;
+    border-radius: 20px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 100px 0px 40px 0px;;
+}
