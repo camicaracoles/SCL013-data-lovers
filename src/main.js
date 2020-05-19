@@ -33,7 +33,6 @@ function cambiar() {
   imagenAzarUrl = '../img/' + imagenAzarNombre + '.png';
   nodoImagen = document.getElementById("tresImagen");
   nodoImagen.src = imagenAzarUrl;
-
 }
 
 //función para mostrar a los pokémon en orden.
