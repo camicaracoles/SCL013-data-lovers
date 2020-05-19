@@ -1,0 +1,618 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Quicksand-Regular.ttf");
+}
+
+body{
+    font-family: "Quicksand";
+    width: 100%;
+    height: 100%;
+}
+
+#fondoBlancoTutorial {
+    display: flex;
+    flex-direction: column;
+}
+
+#parteUnoTutorial {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 400px;
+}
+
+#imagenUnoTutorial {
+    display: flex;
+    justify-content: center;
+    margin: 0px 30px 0px 0px;
+}
+
+#tutorialimg {
+    position: relative;
+    width: 700px;
+    top: 90px;
+}
+
+#unoTutorial {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    top: 100px;
+    margin: 0px 15px 0px 0px;
+}
+
+#textoUnoTutorial {
+    display: flex;
+    justify-content: center;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #006666;
+    width: 500px;
+    margin: 150px 200px 50px 100px;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+}
+
+#parteDosTutorial {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 0px 100px 0px;
+}
+
+#cajaUnoParteDos {
+    display: flex;
+    flex-direction: column;
+}
+
+#estructuraInternaUno {
+    display: flex;
+    align-items: center;
+}
+
+#configuraOpciones {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 650px;
+    background: #A0D6B4;
+    border-radius: 20px;
+    margin: 120px 20px 0px 240px;
+}
+
+#franjaUnoOpciones {
+    display: flex;
+    align-items: center;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    width: 214px;
+    height: 30px;
+    background: #006666;
+    border-radius: 20px;
+    margin: 30px 0px 30px 30px
+}
+
+#franjaDosOpciones {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    width: 634px;
+    height: 162px;;
+    margin: 0px 40px 0px 30px;
+    text-align: center;
+}
+
+#franjaTresTutorial {
+    display: flex;
+    justify-content: center;
+}
+
+
+#unoTutorial {
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 300px;
+    bottom: 50px;
+}
+
+#EstructuraInternaDos {
+    display: flex;
+    justify-content: flex-start;
+    margin: 80px 240px 50px 200px;
+}
+
+#cuboUno {
+    display: flex;
+    flex-direction: column;  
+}
+
+#tituloCuboUno {
+    display: flex;
+    justify-content: center;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #006666;
+    margin: 0px 30px 30px 40px;
+    width: 350px;
+    text-align: center;
+}
+
+#imgElige {
+    display: flex;
+    justify-content: center; 
+}
+
+#pikachuElige {
+    width: 273px;
+    height: 236px;
+}
+
+#cuboDos{
+    display: flex;
+    justify-content: center; 
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #006666; 
+    margin: 30px 0px 30px 0px;
+    text-align: center; 
+}
+
+#cajaDosParteDos {
+    display: flex;
+    justify-content: center;
+}
+
+#pokemoneda{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    width: 400px;
+    height: 1000px;
+    background: #B2D8D8;
+    border-radius: 20px;
+    position: relative;
+    top: 175px;
+    right: 200px;
+}
+
+#imagenmoneda {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 100px; 
+}
+
+#imgPokemoneda {
+    width: 179px;
+    height: 176px;
+    top: 80px;
+}
+
+#tituloPokemoneda {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 10px 30px 0px 30px;
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+}
+
+#textoPokemoneda {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 30px 20px 0px 30px;
+    text-align: center;
+}
+
+#parteTresTutorial {
+    width: 1000px;
+    height: 1350px;
+    background: #A0D6B4;
+    border-radius: 20px;
+    position: relative;
+    left: 310px;
+    bottom: 80px;
+    margin: 0px 0px 30px 0px;
+}
+
+#unoParteTres {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#capturaunpokemon {
+    display: flex;
+    justify-content: center;
+    width: 231px;
+    height: 44px;
+    background: #006666;
+    border-radius: 20px; 
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 20px 0px 10px 30px;
+    text-align: center;
+}
+
+#dosParteTres {
+    width: 930px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 20px 30px 0px 10px;
+    position: relative;
+    left: 30px;
+    text-align: center;
+}
+
+#tresParteTres {
+    display: flex;
+    justify-content: center;
+}
+
+#imagenCapturaUno{
+    display: flex;
+    justify-content: center; 
+}
+
+#imgCapturaUno {
+    width: 500px;
+    height: 305px;
+    border-radius: 20px;
+    margin: 15px 30px 0px 30px;
+}
+
+#textoUnoCaptura {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0px 30px 0px 0px;
+    position: relative;
+}
+
+#cuatroParteTres{
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0px 30px 0px 30px;
+ 
+}
+
+#cincoParteTres {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 0px 30px 0px;
+}
+
+#textoDosCaptura {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 20px 20px 0px 30px;  
+}
+
+#imagenCapturaDos {
+    display: flex;
+    justify-content: center; 
+}
+
+#imgCapturaDos {
+    width: 500px;
+    height: 305px;
+    border-radius: 20px;
+    margin: 10px 30px 0px 30px;
+    bottom: 10px;
+    position: relative;
+}
+
+#seisParteTres {
+    display: flex;
+    justify-content: center; 
+    
+}
+
+#imgCapturaTres {
+    width: 500px;
+    height: 305px;
+    border-radius: 20px;
+}
+
+#parteCuatroTutorial {
+    display: flex;
+    flex-direction: column; 
+}
+
+#estructuraParteCuatro {
+    display: flex;
+    justify-content: flex-start; 
+    margin: 0px 200px 0px 250px;
+}
+
+#subEstru {
+    display: flex;
+    flex-direction: column; 
+    margin: 0px 100px 0px 0px; 
+}
+
+#titulosubEstru {
+    display: flex;
+    justify-content: center; 
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 22px;
+    color: #006666;
+}
+
+#imagenSubEstru {
+    display: flex;
+    justify-content: center; 
+}
+
+#imgSubEstru {
+    width: 150px;
+    height: 150px;
+    margin: 20px 0px 0px 0px;
+}
+
+#subEstruDos {
+    width: 843px;
+    height: 180px;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #006666;
+}
+
+#estructuraParteCuatroDos {
+    display: flex;
+    justify-content: flex-start; 
+    margin: 40px 250px 0px 250px;
+}
+
+#rectanguloUnoTutorial {
+    display: flex;
+    justify-content: center; 
+}
+
+#estadisticas {
+    display: flex;
+    flex-direction: column;
+    width: 535px;
+    height: 1073px;
+    background: #006666;
+    border-radius: 20px;
+    margin: 0px 100px 0px 0px; 
+}
+
+#estadisticaTitulo {
+    display: flex;
+    justify-content: center; 
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 20px 0px 40px 0px;
+}
+
+#imagenUnoEstadisticas {
+    display: flex;
+    justify-content: center; 
+}
+
+#imgUnoEstadisticas {
+    width: 380px;
+    height: 225px;
+    border-radius: 20px;
+}
+
+#textoUnoEstadisticas {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 10px 30px 20px 30px;
+    text-align: center;
+}
+
+#imagenDosEstadisticas {
+    display: flex;
+    justify-content: center; 
+}
+
+#imgPc {
+    width: 440px;
+    height: 184px;
+    border-radius: 20px;
+    
+}
+
+#textoDosEstadisticas {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 10px 30px 30px 30px;
+    text-align: center;
+}
+
+#rectanguloDosTutorial {
+    display: flex;
+    flex-direction: column;
+}
+
+#subRectanguloUno {
+    display: flex;
+    flex-direction: column;
+    width: 436px;
+    height: 800px;
+    background: #B2D8D8;
+    border-radius: 20px;
+}
+
+#internoRectanguloUno {
+    display: flex;
+    justify-content: flex-start;    
+}
+
+#imagenGym {
+    width: 150px;
+    height: 150px;
+}
+
+#imgGym {
+    width: 150px;
+    height: 150px;
+    margin: 20px 0px 0px 20px;
+}
+
+#textoGym {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 20px 20px 0px 20px;
+    text-align: center;
+}
+
+#internoRectanguloDos {
+    display: flex;
+    justify-content: center;  
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 5px 20px 0px 20px;
+}
+
+#subRectanguloDos {
+    display: flex;
+    flex-direction: column;
+}
+
+#internoRectanguloTres{
+    display: flex;
+    justify-content: flex-start;    
+}
+
+#subInternoUno {
+    display: flex;
+    flex-direction: center;
+}
+
+#imagensubInternoUno {
+    width: 200px;
+    height: 200px;
+}
+
+#imgPokeparada {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 80px;
+}
+
+#subInternoDos {
+    display: flex;
+    justify-content: column;
+}
+
+#titulosubInternoDos {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #006666;
+    position: relative;
+    right: 60px;
+    top: 30px;
+}
+
+#textoSubInternoTres {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #006666;
+    text-align: center
+}
+
+#internoRectanguloCuatro {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #006666;
+    text-align: center;
+}
+
+
+
+#bannerFinalTutorial {
+    margin: 100px 0px 0px 0px;
+}

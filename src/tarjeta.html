@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tarjeta</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="pokedex.css" />
-    <link rel="stylesheet" href="tarjeta.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tarjeta</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="pokedex.css" />
+  <link rel="stylesheet" href="tarjeta.css" />
 
 </head>
 
@@ -21,7 +21,7 @@
             </a>
             <a id="pokedex" href="./pokedex.html">
                 <img src="../img/icono-pokedex.png" id="icono-pokedex" /></img>
-                &nbsp Pokédex
+                Pokédex
             </a>
             <a id="Historia" href="./historia.html">
                 <img src="../img/icono-historia.png" id="icono-historia" /></img>
@@ -31,10 +31,6 @@
                 <img src="../img/icono-tutorial.png" id="icono-tutorial" /></img>
                 Tutorial <br> <br> Pokémon Go
             </a>
-            <a id="ataque" href="./ataque.html">
-                <img src="../img/icono-lucha.png" id="icono-ataque" /></img>
-                Ataque y <br> <br> movimientos
-            </a>
         </div>
     </div>
 
@@ -43,7 +39,7 @@
             <div id="textobusqueda">Nombre o número</div>
             <form>
                 <label for="numText"></label>
-                <input type="text" id="numTexto" name="buscador" maxlength="3">
+                <input type="text" id="numTexto" name="buscador">
             </form>
         </div>
         <div id="contenedorBarraDos">
@@ -64,7 +60,87 @@
         </div>
     </div>
     
-    <div class="mostrarPokemon"></div>
+    <div class="mostrarPokemon">
+        <div id="contenedorPrincipal">
+            <div id="fotoCarnet">
+              <div id="textoNameCarnet">&nbsp &nbsp Bulbasaur</div>
+                <img src="../img/001.png" id="fotoPokemonCarnet" /></img>
+              </div>
+              <div id="textopokemon">Bulbasaur es un Pokémon de tipo planta/veneno 
+                introducido en la primera generación. Bulbasaur es un
+                Pokémon cuadrúpedo de color verde y manchas más
+                oscuras de formas geométricas. Su cabeza representa
+                cerca de un tercio de su cuerpo. En su frente se ubican
+                tres manchas que pueden cambiar dependiendo del
+                ejemplar.
+                Este Pokémon tiene plantado un bulbo en el lomo desde que nace.
+                Esta semilla crece y se desarrolla a lo largo del ciclo de vida
+                de Bulbasaur a medida que suceden sus evoluciones. El bulbo
+                absorbey almacena la energía solar que Bulbasaur necesita para crecer.
+                Dicen que cuanta más luz consuma la semilla, más olor producirá
+                cuando se abra.
+                El bulbo de Bulbasaur le ayuda a defenderse de los enemigos y
+                desde él puede disparar ataques tales como rayo solar y drenadoras
+                entre otros. </div>
+            </div>
+            <div id="contenedorDelMedio">
+             <div id="tipoDebilidad">
+                <div id="tipoText">Tipo</div>
+                <div class="cantidadTipo">
+                  <div class="formaTipo">planta</div>
+                </div>
+                <div id="debelidadText">Debilidad</div>
+                <div class="cantidad">
+                  <div class="formaTipoDebilidad">fuego</div>
+                </div>
+              </div>
+              <div id="categorias">
+                <div id="primeraSeccion">
+                  <div id="conjuntoUno">
+                    <div id="altura">Altura</div>
+                    <div class="resultadoAltura">0,71 m</div>
+                    <div id="peso">Peso</div>
+                    <div class="resultadoPeso">6,9 kg</div>
+                    <div id="tipoCaramelo">Tipo de Caramelo</div>
+                    <div class="resultadoTipoCaramelo">Bulbasaur Candy</div>
+                  </div>
+                  <div id="conjuntoDos">
+                    <img src="../img/pokemongo.png" id="apoyoGo" /></img>
+                  </div>
+                </div>
+              <div id="segundaSeccion">
+                <div id="caramelosEvolucion">Caramelos para evolución</div>
+                <div class="resultadoevolucion">25</div>
+                <div id="cantidadKilometros">Cantidad de kilometros para el huevo</div>
+                <div class="resultadoKilometros">2 km</div>
+                <div id="probabilidad">Probabilidad de aparecer</div>
+                <div class="resultadoProbabilidad">0.69</div>
+                <div id="Multiplicadores">Multiplicadores</div>
+                <div class="resultadoMultiplicadores">[1.58]</div>
+              </div>
+              <div id="imagenApoyo"></div>
+            </div>
+          </div>
+          <div id="franjaTextEvoluciones">
+            <div id="btnInfoEvoluciones">Evoluciones</div>
+          </div>
+          <div class="franjaEvoluciones">
+            <div class="miniTarjetaEvolucion">
+              <div class="textoMiniEvolucion">Bulbasaur &nbsp &nbsp &nbsp N°001 </div>
+              <div class="imagenMiniEvolucion">
+               <img src="../img/001.png" class="imagenEvolucion" /></img>
+              </div>
+              <div class="espacioTipoEvolucion">
+                  <div Class="cajaTipoTarjeta">planta</div>
+             </div>
+            </div>
+            <div class="espacioFlechaNegra">
+              <div class="imagenFlechaEvolucion">
+                  <img src="../img/flechaEvolucion.png" class="flechaEvolucion" /></img>
+              </div>
+            </div>
+          </div>`
+    </div>
 
     <div class="banner-final">
         <div id="contenedor-final">
@@ -92,7 +168,7 @@
         </div>
     </div>
     <script src="./data/pokemon/pokemon.js"></script>
-    <script src="./main.js"></script>
+    <script src="./tarjeta.js"></script>
 </body>
 
 </html>

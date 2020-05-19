@@ -234,6 +234,77 @@ body{
     color: #FFFFFF;
 }
 
+.Bug {
+    background-color: #27741B;
+}
+
+.Dragon {
+    background-color: #93750E;
+}
+
+.Fairy {
+    background-color: #E9C5C5; 
+}
+
+.Fire {
+    background-color: #FB7B1E;
+}
+
+.Ghost {
+    background-color: #3D0657;
+}
+
+.Ground {
+    background-color: #866640;
+}
+
+.Normal {
+    background-color: #FFE898;
+}
+
+.Psychic {
+    background-color: #EF83EB;
+}
+
+.Steel {
+    background-color:#433313;
+}
+
+.Dark {
+    background-color:#373434;  
+}
+
+.Electric {
+    background-color:#E0E41E; 
+}
+
+.Fight {
+    background-color:#BC2121;
+}
+
+.Flying {
+    background-color: #819695;
+}
+
+.Grass {
+    background-color: #37A425; 
+}
+
+.Ice {
+    background-color: #52D9D9;
+}
+
+.Poison {
+    background-color: #9B5BCE;
+}
+
+.Rock {
+    background-color: #433313;
+}
+
+.Water {
+    background-color: #2669CC; 
+}
 .contenedorBtnMas {
     display: flex;
     justify-content: center;

@@ -3807,6 +3807,16 @@ const pokemones = [
     "num": "140",
     "name": "Kabuto",
     "img": "http://www.serebii.net/pokemongo/pokemon/140.png",
+    "text": `Kabuto es un Pokémon fósil de tipo roca/agua introducido en la primera generación que se considera 
+    extinto. Es la contraparte de Omanyte. Posee un caparazón en forma de domo (es resucitado a partir del fósil 
+    domo) con el que se defendía de sus depredadores, pero si se le derribaba de costado era presa fácil, es 
+    parecido a los trilobites (artrópodos extintos en el Pérmico). También se parece a los cangrejos herradura 
+    o cangrejos cacerola (artrópodos quelicerados, que hoy en día se consideran fósiles vivientes, pues se conocen 
+    desde el Cámbrico hasta la actualidad), o a los triops. Se relaciona a Kabuto con estos tres por la forma del 
+    fósil (obsérvese su forma en el subsuelo). En tierra era sumamente lento, pero algo veloz en el agua, cazaba 
+    peces con sus garras afiladas parecidas a una hoz. En el EP091, toda una isla estaba sujeta por una gran 
+    cantidad de Kabuto dormidos, pero al despertar la isla se hundió. Según la Pokédex, sobrevive a kilómetros 
+    de profundidad. Se dice que su caparazón posee una sustancia que otorga la vida eternal.`,
     "type": [
       "Rock",
       "Water"
@@ -3838,6 +3848,16 @@ const pokemones = [
     "num": "141",
     "name": "Kabutops",
     "img": "http://www.serebii.net/pokemongo/pokemon/141.png",
+    "text":`
+    Kabutops es un Pokémon fósil de tipo roca/agua introducido en la primera generación que se considera extinto. 
+    Es la evolución de Kabuto y contraparte de Omastar. Kabutops esta basado en un Trilobites, una clase de artrópodos 
+    prehistóricos que no poseen parientes vivos actuales. Se extinguieron hace 250 millones de años aproximadamente.
+    Posee unas increíbles navajas muy afiladas como brazos con los que lanza poderosos ataques hacia sus enemigos. 
+    En la primera generación se le consideraba extinto. Es un Pokémon con una agilidad física increíble que lo 
+    convierte en un ente muy preciado para los entrenadores ya consolidados. Se dice que sus brazos junto con sus 
+    navajas afiladas son huesos descubiertos, lo que quiere decir, que si pensamos en la prehistoria sus brazos no 
+    estaban descubiertos. Se han encontrado fósiles de Kabutops gigantes, conocido entre los investigadores como 
+    Kabutops maximus, que datan de hace 300 millones de años.`,
     "type": [
       "Rock",
       "Water"
@@ -3865,6 +3885,16 @@ const pokemones = [
     "num": "142",
     "name": "Aerodactyl",
     "img": "http://www.serebii.net/pokemongo/pokemon/142.png",
+    "text": `Aerodactyl es un Pokémon de tipo roca/volador introducido en la primera generación. 
+    Es un Pokémon fósil, a partir de la sexta generación puede megaevolucionar en Mega-Aerodactyl. 
+    Aerodactyl era un Pokémon carnívoro, atacaba con sus agudos colmillos al cuello de su presa, 
+    aunque de vez en cuando también comía bayas. Sus alas tenían potentes músculos para poder volar, 
+    sin embargo, no era muy buen volador por lo que le resultaba difícil atrapar Pokémon al vuelo. 
+    También posee un chirriante alarido.
+    Vivía en estado salvaje en las selvas tropicales de hace millones de años. A pesar de que tenía 
+    gran tamaño lo más probable es que esté basado en un Eudimorphodon, debido a la forma que tenía 
+    la punta de su cola (que debía actuar de timón) y a la forma de su boca (está dentada y no tiene 
+    forma de pico). Los dos cuernos se asemejaban a una especie de gran cuerno que poseen algunos pterosaurios.`, 
     "type": [
       "Rock",
       "Flying"
@@ -3889,6 +3919,14 @@ const pokemones = [
     "num": "143",
     "name": "Snorlax",
     "img": "http://www.serebii.net/pokemongo/pokemon/143.png",
+    "text": `Snorlax come muchísimos kilos de comida al día. Lo único que hará será echarse
+    a dormir hasta que vuelva a despertarse por el hambre. Cuando este Pokémon duerme, si 
+    por alguna razón lo despiertas, se enfadará mucho y te atacará ferozmente, aunque después 
+    de perseguirte se volverá a dormir. Snorlax se encuentra a menudo en las montañas y los bosques. 
+    Sin embargo, a veces deambula en las calles de las ciudades: incluso llega a dormir en ellas, 
+    cortando el tráfico violentamente.
+    Los Snorlax se comen todo lo que es comestible. No son realmente muy exigentes. Al encontrar algo 
+    nuevo en su territorio, un Snorlax lo pondrá en su boca para ver si es algo que se puede comer.`,
     "destacado": true,
     "type": [
       "Normal"
@@ -3909,6 +3947,15 @@ const pokemones = [
     "num": "144",
     "name": "Articuno",
     "img": "http://www.serebii.net/pokemongo/pokemon/144.png",
+    "texto": `Articuno es un Pokémon legendario del tipo hielo/volador introducido en la primera generación. 
+    Es la primera de las tres aves legendarias, las otras son Zapdos y Moltres. En Pokémon Platino, Pokémon 
+    X y Pokémon Y es un Pokémon errante.
+    Es normalmente visto en los glaciares. Habitualmente, los Articuno tienen un sentido del honor muy desarrollado 
+    (lo mismo sucede con el resto de individuos pertenecientes al trío de Aves legendarias). Si se siente acorralado, 
+    se encerrará en una gruesa capa de hielo para evitar ser capturado. Es un Pokémon solitario, pero de carácter 
+    territorial; congelará todo el paisaje a su alrededor hasta que se sienta cómodo.
+    Articuno habita en las Islas Espuma, también conocida como la isla de hielo. Raramente se le puede ver en otros 
+    lugares debido a que, al ser legendario, se logra esconder muy bien; pero viaja por todo el mundo trayendo el invierno.`,
     "destacado": true,
     "type": [
       "Ice",
@@ -3933,6 +3980,17 @@ const pokemones = [
     "num": "145",
     "name": "Zapdos",
     "img": "http://www.serebii.net/pokemongo/pokemon/145.png",
+    "text": `Zapdos es un Pokémon legendario de tipo eléctrico/volador introducido en la primera generación. 
+    Es la segunda de las tres aves legendarias de Kanto junto a Moltres y Articuno. En Pokémon Platino, 
+    Pokémon X y Pokémon Y es un Pokémon errante. Zapdos es una de las tres aves legendarias de Kanto. Se trata 
+    de una enorme ave con un pico largo y puntiagudo con un plumaje amarillo y erizado debido a los cúmulos de 
+    electricidad que almacena en él.
+    Zapdos es un Pokémon solitario. Le encanta surcar las tormentas eléctricas para recargar su cuerpo de electricidad 
+    porque es uno de los Pokémon eléctricos con mayor capacidad de absorción de electricidad: puede almacenar en el 
+    interior de su cuerpo y entre su plumaje enormes cargas eléctricas capaces de provocar desastres naturales si son 
+    liberadas de forma violenta.
+    Zapdos es el más irascible y orgulloso de los tres pájaros legendarios. Sólo permite a los entrenadores más avanzados
+    el honor de combatir contra él. `,
     "destacado": true,
     "type": [
       "Electric",
@@ -3955,6 +4013,14 @@ const pokemones = [
     "num": "146",
     "name": "Moltres",
     "img": "http://www.serebii.net/pokemongo/pokemon/146.png",
+    "text": `Moltres es un Pokémon legendario de tipo fuego/volador introducido en la primera generación. 
+    Es la tercera de las tres aves legendarias de Kanto junto a Zapdos y Articuno. En Pokémon Platino, 
+    Pokémon X y Pokémon Y es un Pokémon errante.
+    Moltres es un enorme pájaro de color amarillento, con una cresta llameante en la cabeza y unas patas de 
+    color marrón rojizo. Sus alas y su cola están envueltas en llamas (Se asemeja mucho a un Fénix).
+    Es una de las 3 aves legendarias. Fue creado, al igual que Articuno y Zapdos, para mantener el balance 
+    del clima por el calor que provoca, de ahí viene que Articuno y Moltres se tengan un odio especial.
+    Su temperatura corporal supera los 4000 °C.`,
     "destacado": true,
     "type": [
       "Fire",
@@ -3978,6 +4044,16 @@ const pokemones = [
     "num": "147",
     "name": "Dratini",
     "img": "http://www.serebii.net/pokemongo/pokemon/147.png",
+    "text":`Su nombre proviene de las palabras en inglés dragon (dragón) y tiny (pequeñito). 
+    A pesar de esto, por lo que se podría pensar que es un dragón pequeño, Dratini puede alcanzar 
+    hasta 1,8 de metros de longitud. Durante mucho tiempo se le consideró un Pokémon mítico. Vivían 
+    en grandes colonias bajo el agua y no se tuvo constancia de ello hasta hace poco. Durante años 
+    se dudó de su existencia, hasta que se encontró una colonia submarina. Habita en las profundidades 
+    de mares o lagos. Curiosamente, una de estas colonias es una zona de agua en concreto de la Zona 
+    Safari (Kanto). También hay otras colonias en el Monte corona y la zona donde hay más y era conocida 
+    por pocas personas es la Guarida Dragón en Ciudad Endrino. Aparte de esa colonia se sabe que ahora 
+    habitan bastantes en el océano. También es posible encontrarlos en las zonas de agua adyacentes a 
+    la Torre Duodraco.`, 
     "type": [
       "Dragon"
     ],
@@ -4010,6 +4086,15 @@ const pokemones = [
     "num": "148",
     "name": "Dragonair",
     "img": "http://www.serebii.net/pokemongo/pokemon/148.png",
+    "text":`Su nombre proviene de las palabras en inglés dragon (dragón) y debonair (elegante y desenvuelto). 
+    También puede tratarse de un juego de palabras con air (aire, probablemente en referencia a su habilidad 
+    para modificar el clima).
+    Dragonair vive en mares y lagos. Su cuerpo desprende un aura que tranquiliza a los seres de su alrededor. 
+    Almacena una cantidad enorme de energía dentro de su cuerpo. Se cree que puede alterar las condiciones 
+    climáticas de sus alrededores (lo que se puede comprobar en el anime) descargando energía de sus cristales 
+    de su cuello y su cola.
+    Este Pokémon posee una belleza espectacular y es anhelado por entrenadores que, de igual forma, buscan 
+    Pokémon para los concursos de belleza.` ,
     "type": [
       "Dragon"
     ],
@@ -4040,6 +4125,14 @@ const pokemones = [
     "num": "149",
     "name": "Dragonite",
     "img": "http://www.serebii.net/pokemongo/pokemon/149.png",
+    "text":`Dragonite es un gran Pokémon dragón, con varias características marcadas. Puede volar, 
+    escupir tanto fuego como agua o hielo, utilizar la electricidad, que genera mediante sus antenas 
+    pero el cómo lo hacen, es desconocido, pero podría ser porque el material del que están hechas permite 
+    reunir una enorme carga estática, además de eso posee una inteligencia cercana a la humana. Además, 
+    igual que su preevolución, salvan a gente que se está ahogando y marineros perdidos en el mar.
+    Dragonite es un Pokémon muy leal a cualquier entrenador que encuentren digno de ellos. Podría sacrificar 
+    su vida sólo para salvar a su entrenador. Los Dragonite viven mucho más que una persona ya que son dragones, 
+    pero siempre se acuerdan de sus entrenadores. Algunos Dragonite tienen más de 300 años.` ,
     "destacado": true,
     "type": [
       "Dragon",
@@ -4071,6 +4164,17 @@ const pokemones = [
     "num": "150",
     "name": "Mewtwo",
     "img": "http://www.serebii.net/pokemongo/pokemon/150.png",
+    "text": `Mewtwo es un Pokémon legendario y artificial de tipo psíquico introducido en la primera generación. 
+    Fue creado por el doctor Fuji a partir del ADN de Mew. A partir de la sexta generación puede megaevolucionar 
+    en Mega-Mewtwo X o en Mega-Mewtwo Y, convirtiéndose, junto con Mega-Rayquaza, en el Pokémon con la suma de 
+    estadísticas de combate más altas.
+    Mewtwo es el resultado de las ambiciones de los seres humanos en la creación de una reproducción genéticamente 
+    realzada (o más bien mejorada) de Mew.
+    Es uno de los primeros Pokémon creados por la ciencia. Los científicos que lo crearon soñaron con crear al Pokémon 
+    más fuerte del mundo, y según el Dr. Fuji lo lograron. Se considera único, debido al hecho de que solo uno fue genéticamente creado.
+    Mewtwo es sumamente hábil con sus poderes psíquicos: puede volar mediante la levitación, comunicarse telepáticamente, reflejar ataques 
+    como hiperrayo, bloquear las habilidades especiales de los demás Pokémon y tomar el mando de la mente de otra criatura viva mediante hipnosis. 
+    Es capaz de conservar su energía permaneciendo totalmente inmóvil, liberándola en combate para potenciar así sus ataques.`,
     "destacados": true,
     "type": [
       "Psychic"
@@ -4093,6 +4197,16 @@ const pokemones = [
     "num": "151",
     "name": "Mew",
     "img": "http://www.serebii.net/pokemongo/pokemon/151.png",
+    "text": `Mew es un Pokémon singular de tipo psíquico introducido en la primera generación.
+    Es el ancestro de todos los Pokémon, ya que tiene todos los genes de los Pokémon existentes. 
+    Además, es el único Pokémon capaz de aprender todas las máquinas técnicas (MT), máquinas ocultas
+    (MO) y movimientos del tutor de movimientos.
+    La forma de Mew es derivada del gato esfinge, ya que es de aspecto felino y color rosado. Además, 
+    se dice que este Pokémon sí tiene pelo, solo que a tamaño microscópico, igual que el verdadero animal. 
+    Mew tiene grandes poderes psíquicos y los usa para esconderse o se oculta transformándose en otro Pokémon.
+    A pesar de su apariencia adorable, Mew es uno de los Pokémon más poderosos. También es uno de los más inteligentes. 
+    Puede hacerse invisible cuando quiera; intenta no hacerse notar cuando se acerca a la gente. Se cree que contiene la 
+    composición genética de todos los otros Pokémon y que puede realizar cualquier movimiento que puedan hacer estos. `,
     "destacado": true,
     "type": [
       "Psychic"
@@ -4116,76 +4230,76 @@ const pokemones = [
 
 const tipos = [
   {
-    "id": "1",
-    "name": "bicho",
+    "id": "bug",
+    "nameOriginal": "bicho",
     "color": "#27741B"
   }, {
-    "id": "2",
+    "id": "dragon",
     "name": "dragon",
     "color": "#93750E"
   }, {
-    "id": "3",
+    "id": "fairy",
     "name": "hada",
     "color": "#E9C5C5"
   }, {
-    "id": "4",
+    "id": "fire",
     "name": "fuego",
     "color": "#FB7B1E"
   }, {
-    "id": "5",
+    "id": "ghost",
     "name": "fantasma",
     "color": "#3D0657"
   }, {
-    "id": "6",
+    "id": "ground",
     "name": "tierra",
     "color": "#866640"
   }, {
-    "id": "7",
+    "id": "normal",
     "name": "normal",
     "color": "#FFE898"
   }, {
-    "id": "8",
+    "id": "psychic",
     "name": "psíquico",
-    "color": "#866640"
+    "color": "#EF83EB"
   }, {
-    "id": "9",
+    "id": "steel",
     "name": "acero",
-    "color": "#866640"
+    "color": "#433313"
   }, {
-    "id": "10",
+    "id": "dark",
     "name": "siniestro",
     "color": "#373434"
   }, {
-    "id": "11",
+    "id": "electric",
     "name": "eléctrico",
     "color": "#E0E41E"
   }, {
-    "id": "12",
+    "id": "fight",
     "name": "lucha",
     "color": "#BC2121"
   }, {
-    "id": "13",
+    "id": "flying",
     "name": "volador",
     "color": "#819695"
   }, {
-    "id": "14",
+    "id": "grass",
     "name": "planta",
     "color": "#37A425"
   }, {
-    "id": "15",
+    "id": "ice",
     "name": "hielo",
     "color": "#52D9D9"
   }, {
-    "id": "16",
+    "id": "poison",
     "name": "veneno",
     "color": "#9B5BCE"
   }, {
-    "id": "17",
+    "id": "rock",
     "name": "roca",
     "color": "#433313"
   }, {
-    "id": "18",
+    "id": "water",
     "name": "agua",
-    "color": "2669CC"
+    "color": "#2669CC"
   }
 ]

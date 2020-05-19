@@ -36,7 +36,19 @@ function cambiar() {
 
 }
 
+//función para mostrar a los pokémon en orden.
+
 function mostrarTarjeta(pokemon) {
+  function crearElementosTipo(arregloTipos) { 
+    if (!arregloTipos){
+      console.log("pokemonSinTipo") 
+      return ""
+    }
+    const htmlTipos = arregloTipos.map((tipo) => {
+      return `<div class="cajaTipoTarjeta ${tipo}">${tipo}</div>` 
+    });
+    return htmlTipos.join('');
+  }
   let primerPokemon = pokemon;
   let paraNodo = document.createElement("div");
   let htmlTarjeta = `
@@ -53,12 +65,13 @@ function mostrarTarjeta(pokemon) {
    <div class="nameTarjeta">${primerPokemon.name}</div>
  </div>
  <div class="franjaCuatroTarjeta">
-     <div Class="cajaTipoTarjeta">planta</div>
+    ${crearElementosTipo(primerPokemon.type)}
  </div>
  `
   let miniTarjetas = document.getElementById("miniTarjetas");
   miniTarjetas.appendChild(paraNodo);
   paraNodo.innerHTML = htmlTarjeta;
+
 }
 
 //Declaro for para repetir las tarjetas y declarar 8 pokémon.
@@ -96,7 +109,7 @@ function cambiarSiguiente() {
 function selectOption() {
   let selectFiltro = document.getElementById("filtro").value;
   if (selectFiltro === "numeroInferior") {
-    mostrarTarjeta(pokemon);
+    location.reload();
   } else if (selectFiltro === "numeroSuperior") {
     MayorAMenor();
   } else if (selectFiltro === "a_z") {
@@ -118,106 +131,68 @@ function MayorAMenor() {
   cambiarSiguiente();
 }
 
-//Filtro A-Z
 
-//function AHastaZ() {
-  //const arrayName = pokemones.name;
-  //arrayName.sort()
-  //const ordenado = arrayName.sort()
-  //for (let index = 0; index <= 7; index++) {
-   // mostrarTarjeta(ordenado[index]);
-  //}
-  //mostrarTarjeta(pokemon);
-  //cambiarSiguiente();
+//Filtro A-Z   
 
-//}
-//Filtro Z-A
-//function ZHastaA() {
-  //utilizar la función de ariba con reverse.
-
-//Arreglo de tipos, con su texto 
-
-//función para comparar y enviar info de pokemon a tarjeta.html
-
-//function mostrarPokemon(pokemon) {
-  //declaro función para utilizar los tipos del arreglo
-  //let pokemonElegido = pokemon;
-  //let paraNodo = document.createElement("div");
-  //let htmlTarjeta = `
-  //<div id="contenedorPrincipal">
-  //<div id="fotoCarnet">
-      //<div id="textoNameCarnet">&nbsp &nbsp ${pokemonElegido.name}</div>
-      //<img src="../img/${pokemonElegido.num}.png" id="fotoPokemonCarnet" /></img>
-  //</div>
- // <div id="textopokemon">${pokemonElegido.text} </div>
-//</div>
-//<div id="contenedorDelMedio">
- // <div id="tipoDebilidad">//
-     // <div id="tipoText">Tipo</div>
-      //<div class="cantidadTipo">
-         // <div class="formaTipo">planta</div>
-      //</div>
-      //<div id="debelidadText">Debilidad</div>
-     //<div class="cantidad">
-          //<div class="formaTipoDebilidad">fuego</div>
-     // </div>
-  //</div>
-  //<div id="categorias">
-      //<div id="primeraSeccion">
-         // <div id="conjuntoUno">
-              //<div id="altura">Altura</div>
-              //<div class="resultadoAltura">0,71 m</div>
-              //<div id="peso">Peso</div>
-              //<div class="resultadoPeso">6,9 kg</div>
-              //<div id="tipoCaramelo">Tipo de Caramelo</div>
-              //<div class="resultadoTipoCaramelo">Bulbasaur Candy</div>
-          //</div>
-         // <div id="conjuntoDos">
-              //<img src="../img/pokemongo.png" id="apoyoGo" /></img>
-         //</div>
-     // </div>
-      //<div id="segundaSeccion">
-          //<div id="caramelosEvolucion">Caramelos para evolución</div>
-          //<div class="resultadoevolucion">25</div>
-          //<div id="cantidadKilometros">Cantidad de kilometros para el huevo</div>
-         //<div class="resultadoKilometros">2 km</div>
-          //<div id="probabilidad">Probabilidad de aparecer</div>
-          //<div class="resultadoProbabilidad">0.69</div>
-          //<div id="Multiplicadores">Multiplicadores</div>
-         // <div class="resultadoMultiplicadores">[1.58]</div>
-     // </div>
-      //<div id="imagenApoyo"></div>
-  //</div>
-//</div>
-//<div id="franjaTextEvoluciones">
-  //<div id="btnInfoEvoluciones">Evoluciones</div>
-//</div>
-//<div class="franjaEvoluciones">
-  //<div class="miniTarjetaEvolucion">
-     // <div class="textoMiniEvolucion">Bulbasaur &nbsp &nbsp &nbsp N°001 </div>
-      //<div class="imagenMiniEvolucion">
-         // <img src="../img/001.png" class="imagenEvolucion" /></img>
-      //</div>
-      //<div class="espacioTipoEvolucion">
-         // <div Class="cajaTipoTarjeta">planta</div>
-     // </div>
-  //</div>
-  //<div class="espacioFlechaNegra">
-      //<div class="imagenFlechaEvolucion">
-          //<img src="../img/flechaEvolucion.png" class="flechaEvolucion" /></img>
-      //</div>
-  //</div>
-//</div>`
-
-//let miniTarjetas = document.getElementById("miniTarjetas");
-//miniTarjetas.appendChild(paraNodo);
-//paraNodo.innerHTML = htmlTarjeta;
-
-
-//function valorInput(){
-//let valorInput= document.getElementById("numTexto").value;
-//for (let index = 0; index < pokemones.length; index++) {
-//if(valorInput === pokemones[index].id) {}
-
+function AHastaZ () {
+  const sorted = pokemones.sort((a, b) => {
+    if (a.name < b.name) {
+      return -1;
+    }
+    if (a.name > b.name) {
+      return 1;
+    }
+    return 0;
+  });
+  
+  document.getElementById("miniTarjetas").innerHTML = " ";
+  for (let index = 0; index < sorted.length; index++) {
+    mostrarTarjeta (sorted[index]);  
+  }
  
- //enviar a tarjeta.html con el pokmón designado.
+}
+
+
+//Filtro Z-A
+
+function ZHastaA () {
+  const sorted = pokemones.sort((a, b) => {
+    if (a.name < b.name) {
+      return -1;
+    } 
+    if (a.name > b.name) {
+      return 1;
+    }
+    return 0;
+  }).reverse();
+
+
+  
+  document.getElementById("miniTarjetas").innerHTML = " ";
+  for (let index = 0; index < sorted.length; index++) {
+    mostrarTarjeta (sorted[index]);  
+  }
+ 
+}
+
+
+
+//función para filtrar pokémon, por info del imput.
+
+function filtrarInput () {
+  let contenedorResultado = []
+ 
+  let contenedorInput = document.getElementById("numTexto").value;
+  for (let index = 0; index < pokemones.length; index++) {
+     if (contenedorInput == pokemones[index].name || contenedorInput == pokemones[index].num)  {
+      contenedorResultado.push(pokemones[index]);
+    }
+  }
+  console.log(contenedorResultado)
+  document.getElementById("miniTarjetas").innerHTML = " ";
+  for (let index = 0; index < contenedorResultado.length; index++) {
+    mostrarTarjeta (contenedorResultado[index]);  
+  }
+ 
+}
+

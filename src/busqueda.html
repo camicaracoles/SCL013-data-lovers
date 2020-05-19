@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
 
     <head>
@@ -22,7 +22,7 @@
                 </a>
                 <a id="pokedex" href="./pokedex.html">
                     <img src="../img/icono-pokedex.png" id="icono-pokedex" /></img>
-                    &nbsp Pokédex
+                    Pokédex
                 </a>
                 <a id="Historia" href="./historia.html">
                     <img src="../img/icono-historia.png" id="icono-historia" /></img>
@@ -32,20 +32,16 @@
                     <img src="../img/icono-tutorial.png" id="icono-tutorial" /></img>
                     Tutorial <br> <br> Pokémon Go
                 </a>
-                <a id="ataque" href="./ataque.html">
-                    <img src="../img/icono-lucha.png" id="icono-ataque" /></img>
-                    Ataque y <br> <br> movimientos
-                </a>
             </div>
         </div>
 
         <div class="barraPokedex">
             <div id="contenedorBarraUno">
                 <div id="textobusqueda">Nombre o número</div>
-                <form>
+                <div id="input">
                     <label for="numText"></label>
-                    <input type="text" id="numTexto" name="buscador" maxlength="3">
-                </form>
+                    <input type="text" id="numTexto" name="buscador" onchange="filtrarInput()">
+                </div>    
             </div>
             <div id="contenedorBarraDos">
                 <div id=Pokedeximg>
@@ -54,13 +50,9 @@
             </div>
         </div>
 
-        <div id="contenedorBusqueda">
-            <div id="franjaParteArriba">
-                <div id="busquedaPorTipo">
-                    <div class="tipos">bicho</div>
-                    <div class="btnTipo">T</div>
-                    <div class="btnDebilidad">D</div>
-                </div>
+        <div class="contenedorBusqueda">
+            <div class="franjaParteArriba">
+                <div id="busquedaPorTipo"></div>
                 <div id="busquedaPorCantidades">
                     <div id="porTamaño">Tamaño</div>
                     <div class="btnMenorMayor">
@@ -109,8 +101,8 @@
                 </div>
               </div>
         </div>
-        <script src="./data/pokemon/.js"></script>
-        <script src="./main.js"></script>
+        <script src="./data/pokemon/pokemon.js"></script>
+        <script src="./busqueda.js"></script>
     </body>
 
     </html>

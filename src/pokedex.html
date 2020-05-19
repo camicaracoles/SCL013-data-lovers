@@ -20,7 +20,7 @@
       </a>
       <a id="pokedex" href="./pokedex.html">
         <img src="../img/icono-pokedex.png" id="icono-pokedex" /></img>
-        &nbsp Pokédex
+        Pokédex
       </a>
       <a id="Historia" href="./historia.html">
         <img src="../img/icono-historia.png" id="icono-historia" /></img>
@@ -30,10 +30,6 @@
         <img src="../img/icono-tutorial.png" id="icono-tutorial" /></img>
         Tutorial <br> <br> Pokémon Go
       </a>
-      <a id="ataque" href="./ataque.html">
-        <img src="../img/icono-lucha.png" id="icono-ataque" /></img>
-        Ataque y <br> <br> movimientos
-      </a>
     </div>
   </div>
 
@@ -41,10 +37,10 @@
   <div class="barraPokedex">
     <div id="contenedorBarraUno">
       <div id="textobusqueda">Nombre o número</div>
-      <form>
+      <div id="input">
         <label for="numText"></label>
-        <input type="text" id="numTexto" name="buscador" maxlength="3">
-      </form>
+        <input type="text" id="numTexto" name="buscador" onchange="filtrarInput()">
+      </div>
     </div>
     <div id="contenedorBarraDos">
       <div id=Pokedeximg>
@@ -56,16 +52,16 @@
   <div class="fondoblanco">
     <div class="contenedorFiltros">
       <div id="primerContenedor">
-        <select id="filtro"onchange="selectOption()">Ordenar por...
-          <option value="numeroInferior" >Número Inferior</option>
-          <option value="numeroSuperior" >Número Superior</option>
-          <option value="a_z">De la A - Z</option>
-          <option value="z_a">De la Z - A</option>
+        <select id="filtro"onchange="selectOption()"> &nbsp Ordenar por...
+          <option value="numeroInferior" onclick="location.reload()" > &nbsp Número Inferior</option>
+          <option value="numeroSuperior" > &nbsp Número Superior</option>
+          <option value="a_z"> &nbsp De la A - Z</option>
+          <option value="z_a"> &nbsp De la Z - A</option>
         </select>
       </div>
       
       <div id="segundoContenedor">
-        <a id="textBusquedaAvanzada" href="./busqueda.html">&nbsp &nbsp &nbsp &nbsp Búsqueda Avanzada</a>
+        <a id="textBusquedaAvanzada" href="./busqueda.html"> &nbsp Búsqueda Avanzada</a>
         <div id="imgCharizard">
           <img src="../img/006.png" id="ImgbusquedaAvanzada" /></img>
         </div>

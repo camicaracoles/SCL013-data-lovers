@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
 }
+
+@font-face {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Quicksand-Regular.ttf");
+}
+
 body{
     font-family: "Quicksand";
     width: 100%;
